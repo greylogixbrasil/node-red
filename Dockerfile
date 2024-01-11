@@ -2,6 +2,7 @@ FROM nodered/node-red
 USER root
 RUN apk update && apk upgrade && apk add sqlite
 USER node-red
+RUN touch buffer.db
 RUN npm install \
   --no-audit \
   --no-update-notifier \
