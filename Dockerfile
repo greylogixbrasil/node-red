@@ -27,6 +27,7 @@ RUN npm install \
     node-red-contrib-os \
     node-red-contrib-queued-sqlite-fix \
     node-red-contrib-s7 \
+    node-red-contrib-siemens-sentron \
     node-red-contrib-telegrambot \
     node-red-contrib-ui-led \
     sqlite-plugin-red
