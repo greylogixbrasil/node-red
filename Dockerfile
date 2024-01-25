@@ -2,6 +2,7 @@ FROM nodered/node-red
 USER root
 RUN apk update && apk upgrade && apk add sqlite
 USER node-red
+ENV NODE_RED_ENABLE_PROJECTS=true
 RUN touch /data/buffer.db
 RUN npm install \
   --no-audit \
