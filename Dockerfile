@@ -15,6 +15,7 @@ RUN npm install \
     node-red-dashboard \
     node-red-node-email \
     node-red-node-sqlite \
+    node-red-node-ui-table \
     node-red-contrib-advanced-ping \
     node-red-contrib-clock-generator \
     node-red-contrib-countdown \
@@ -22,7 +23,9 @@ RUN npm install \
     node-red-contrib-fs-ops \
     node-red-contrib-google-cloud \
     node-red-contrib-hourglass \
+    node-red-contrib-influxdb \
     node-red-contrib-interval-length \
+    node-red-contrib-linux-network-stats \
     node-red-contrib-modbus \
     node-red-contrib-opcua \
     node-red-contrib-os \
@@ -30,5 +33,6 @@ RUN npm install \
     node-red-contrib-s7 \
     node-red-contrib-siemens-sentron \
     node-red-contrib-telegrambot \
+    node-red-contrib-ui-heatmap \
     node-red-contrib-ui-led \
     sqlite-plugin-red
