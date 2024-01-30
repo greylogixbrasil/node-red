@@ -12,6 +12,7 @@ RUN npm install \
   --save-prefix=~ \
   --production \
   --engine-strict \
+    node-red-auth-github \
     node-red-dashboard \
     node-red-node-email \
     node-red-node-sqlite \
