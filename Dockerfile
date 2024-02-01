@@ -12,7 +12,6 @@ RUN npm install \
   --save-prefix=~ \
   --production \
   --engine-strict \
-    node-red-auth-github \
     node-red-dashboard \
     node-red-node-email \
     node-red-node-sqlite \
@@ -36,4 +35,5 @@ RUN npm install \
     node-red-contrib-telegrambot \
     node-red-contrib-ui-heatmap \
     node-red-contrib-ui-led \
+    passport-github2 \
     sqlite-plugin-red
