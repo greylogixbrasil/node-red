@@ -5,4 +5,4 @@ USER node-red
 ENV NODE_RED_ENABLE_PROJECTS=true
 RUN touch /data/buffer.db
 COPY ./package-lock.json ./
-RUN npm install package-lock.json
+RUN npm ci
