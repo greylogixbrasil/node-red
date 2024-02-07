@@ -3,5 +3,6 @@ COPY ./package-lock.json ./
 USER root
 RUN apk update && apk upgrade && apk add sqlite
 RUN npm install
+RUN npm ci
 USER node-red
 RUN touch /data/buffer.db
