@@ -1,4 +1,4 @@
-FROM nodered/node-red
+FROM nodered/node-red:3.1.4-18
 USER root
 RUN apk update && apk upgrade && apk add sqlite
 USER node-red
