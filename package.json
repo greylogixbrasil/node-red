@@ -1,0 +1,62 @@
+{
+    "name": "node-red-docker",
+    "version": "3.1.4",
+    "description": "Low-code programming for event-driven applications",
+    "homepage": "http://nodered.org",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red-docker.git"
+    },
+    "private": true,
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
+        "debug": "node --inspect=0.0.0.0:9229 $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
+        "debug_brk": "node --inspect=0.0.0.0:9229 --inspect-brk $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+    },
+    "contributors": [
+        {
+            "name": "Dave Conway-Jones"
+        },
+        {
+            "name": "Nick O'Leary"
+        },
+        {
+            "name": "James Thomas"
+        },
+        {
+            "name": "Raymond Mouthaan"
+        }
+    ],
+    "dependencies": {
+        "node-red": "3.1.4",
+        "node-red-contrib-advanced-ping": "~1.2.0",
+        "node-red-contrib-clock-generator": "~1.2.0",
+        "node-red-contrib-countdown": "~1.3.2",
+        "node-red-contrib-counter": "~0.1.6",
+        "node-red-contrib-fs-ops": "~1.6.0",
+        "node-red-contrib-google-cloud": "~0.0.26",
+        "node-red-contrib-hourglass": "~1.5.0",
+        "node-red-contrib-influxdb": "~0.7.0",
+        "node-red-contrib-interval-length": "~0.0.6",
+        "node-red-contrib-linux-network-stats": "~0.2.6",
+        "node-red-contrib-modbus": "~5.30.0",
+        "node-red-contrib-opcua": "~0.2.321",
+        "node-red-contrib-os": "~0.2.1",
+        "node-red-contrib-queued-sqlite-fix": "~0.0.1",
+        "node-red-contrib-s7": "~3.1.0",
+        "node-red-contrib-siemens-sentron": "~0.0.41",
+        "node-red-contrib-telegrambot": "~15.1.9",
+        "node-red-contrib-ui-heatmap": "~2.2.1",
+        "node-red-contrib-ui-led": "~0.4.11",
+        "node-red-dashboard": "~3.6.2",
+        "node-red-node-email": "~2.1.0",
+        "node-red-node-sqlite": "~1.1.0",
+        "node-red-node-ui-table": "~0.4.3",
+        "passport-github2": "~0.1.12",
+        "sqlite-plugin-red": "~0.0.3"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
